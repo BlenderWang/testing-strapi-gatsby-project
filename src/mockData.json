@@ -1,0 +1,38 @@
+[
+    {
+    "id": 1,
+    "title": "News Title 1",
+    "excerpt": "**Booty hulk bilge** water Shiver me timbers landlubber or just lubber. Reef lugsail bilged on her anchor league main sheet. Plate Fleet ahoy square-rigged log code of conduct. Long boat bilged on her anchor smartly Shiver me timbers topsail. Gaff reef doubloon brig heave to. Wherry grog blossom Sea Legs pressgang chase. Rigging loot red ensign Nelsons folly measured fer yer chains. Knave reef shrouds gabion ballast. Gold Road code of conduct pink pirate rum. Lanyard booty crow's nest gaff draft.",
+    "content": "**Booty hulk bilge** water Shiver me timbers landlubber or just lubber. Reef lugsail bilged on her anchor league main sheet. Plate Fleet ahoy square-rigged log code of conduct. Long boat bilged on her anchor smartly Shiver me timbers topsail. Gaff reef doubloon brig heave to. Wherry grog blossom Sea Legs pressgang chase. Rigging loot red ensign Nelsons folly measured fer yer chains. Knave reef shrouds gabion ballast. Gold Road code of conduct pink pirate rum. Lanyard booty crow's nest gaff draft.\n\n**Knave aft flogging** black jack starboard. Gunwalls draft brig strike colors crack Jennys tea cup. Hornswaggle pressgang long clothes Blimey Buccaneer. Grog blossom barkadeer wench lookout chase guns. Grapple ahoy long clothes hearties snow. Pillage scuttle mizzenmast lad Buccaneer. Tack matey poop deck lad long clothes. Blow the man down tack boatswain warp sutler. Interloper black spot poop deck maroon execution dock. Loot draft run a rig mizzen jolly boat.\n\n**Capstan** clap of thunder transom wherry keel. Aye Chain Shot flogging careen smartly. *Keelhaul* topmast grapple chase man-of-war. Keel list sheet careen long boat. Cable Jolly Roger hang the jib fluke ho. Hearties Sink me hulk to go on account draft. Scuttle trysail main sheet to go on account parley. Jolly Roger Nelsons folly yard Buccaneer squiffy. Dance the hempen jig cackle fruit pressgang ballast square-rigged. Square-rigged bowsprit quarter red ensign long clothes.\n\n\n![text](https://res.cloudinary.com/shirlzzz9/image/upload/v1577020140/bnlu1v1jspqgcnkv9vzw.svg)",
+    "author": {
+    "id": 1,
+    "username": "shirley",
+    "email": "shirleywang527@gmail.com",
+    "provider": "local",
+    "confirmed": true,
+    "blocked": false,
+    "role": 2,
+    "created_at": "2019-12-21T21:57:55.405Z",
+    "updated_at": "2019-12-22T21:58:50.512Z"
+    },
+    "created_at": "2019-12-21T21:57:09.369Z",
+    "updated_at": "2019-12-22T21:58:50.504Z",
+    "image": {
+    "id": 3,
+    "name": "h81n6364u7y21.png",
+    "hash": "f6246ef9dfea41279f9289a483b346eb",
+    "sha256": "sApXqXbW1yszp9hK_69JE55DZEYA1RsP4akH91cq8jY",
+    "ext": ".png",
+    "mime": "image/png",
+    "size": "5173.05",
+    "url": "https://res.cloudinary.com/shirlzzz9/image/upload/v1576966469/r5ef1sa6yrwcm3hu2qim.png",
+    "provider": "cloudinary",
+    "provider_metadata": {
+    "public_id": "r5ef1sa6yrwcm3hu2qim",
+    "resource_type": "image"
+    },
+    "created_at": "2019-12-21T22:14:30.229Z",
+    "updated_at": "2019-12-21T22:14:30.229Z"
+    }
+    }
+]
