@@ -5,8 +5,8 @@ jest.mock('axios');
 
 test('should fetch news', () => {
   const news = [{title: 'News Title 1'}];
-  const resp = {data: news};
-  axios.get.mockResolvedValue(resp);
+  const res = {data: news};
+  axios.get.mockResolvedValue(res);
 
   return News.all().then(data => expect(data).toEqual(news));
 });

@@ -2,6 +2,7 @@ import React from 'react'
 import NavHeader from './NavHeader'
 import Header from './Header'
 import About from './About'
+import Join from './Join'
 
 export default function App() {
     return (
@@ -9,6 +10,7 @@ export default function App() {
             <NavHeader />
             <Header />
             <About />
+            <Join />
         </div>
     )
 }
