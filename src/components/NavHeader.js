@@ -27,6 +27,10 @@ export default class NavHeader extends Component {
     window.addEventListener("scroll", this.handleScroll)
   }
 
+  componentWillUnmount = () => {
+    window.removeEventListener("scroll", this.handleScroll)
+  }
+
   UNSAFE_componentWillMount() {
     // console.log("mount")
     this.setState({
