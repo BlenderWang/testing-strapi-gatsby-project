@@ -2,13 +2,13 @@ import React from "react";
 import Title from "./Title";
 import Button from "./Button";
 
-function encode(data) {
-    return Object.keys(data)
-        .map(
-            key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-        )
-        .join("&");
-}
+// function encode(data) {
+//     return Object.keys(data)
+//         .map(
+//             key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+//         )
+//         .join("&");
+// }
 
 export default class Index extends React.Component {
     constructor(props) {
@@ -20,33 +20,32 @@ export default class Index extends React.Component {
         };
     }
 
-    clear = () => {
-        this.setState({
-            name: "",
-            email: "",
-            message: ""
-        });
-    };
-
     handleChange = e => {
         this.setState({ [e.target.name]: e.target.value });
     };
 
     handleSubmit = e => {
         e.preventDefault();
-        fetch("/", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({
-                "form-name": "contact",
-                ...this.state
-            })
-        })
-            .then(() => {
-                alert("Success!");
-                this.clear();
-            })
-            .catch(error => alert(error));
+        // fetch("/", {
+        //     method: "POST",
+        //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        //     body: encode({
+        //         "form-name": "contact",
+        //         ...this.state
+        //     })
+        // })
+        //     .then(() => {
+        //         navigate(form.getAttribute('action'))
+        //     })
+        //     .catch(error => alert(error));
+        alert(
+            `Name: ${this.state.name}, Email: ${this.state.email}, Message: ${this.state.message}`
+        );
+        this.setState({
+            name: "",
+            email: "",
+            message: ""
+        });
     };
 
     render() {
@@ -124,6 +123,13 @@ export default class Index extends React.Component {
                             type="reset"
                             value="Clear"
                             className="btn btn--danger"
+                            onClick={() =>
+                                this.setState({
+                                    name: "",
+                                    email: "",
+                                    message: ""
+                                })
+                            }
                         ></input>
                     </div>
                 </form>
